@@ -20,7 +20,7 @@ import { ProductsModule } from './products/products.module';
     password: process.env.DB_PASSWORD ?? '123456789',
     database: process.env.DB_NAME ?? 'itstore',
     entities:  [__dirname + '/**/*.entity{.ts,.js}'],
-    synchronize: false,
+    synchronize: true,
   }),
     ProductsModule,],
   controllers: [AppController],
