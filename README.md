@@ -27,12 +27,6 @@ The user interface for the IT Store application, built with React, Vite, and Typ
    npm install
    ```
 
-3. Configure your environment variables:
-   Create a `.env` file in the root directory and add the URL pointing to your local NestJS API:
-   ```env
-   VITE_API_URL=http://localhost:3000
-   ```
-
 ### Running the Application
 
 To start the Vite development server locally:
