@@ -23,8 +23,6 @@ Stores the catalog of available IT hardware and accessories.
 | `price` | decimal(10,2)| Cost of the product |
 | `imageUrl` | varchar(500)| URL to the product's image (Nullable) |
 
----
-
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -60,15 +58,6 @@ To start the server in development mode:
 ```bash
 npm run start:dev
 ```
-
-> **⚠️ Important Database Note:** > In your `app.module.ts`, TypeORM is configured with `synchronize: false`. This means the database tables will **not** be created automatically when the server starts. 
-> 
-> To generate the tables, you must either:
-> 1. Run your TypeORM migrations.
-> 2. Temporarily change it to `synchronize: true` for local development.
-> 3. Manually create the tables using the SQL script provided below.
-
----
 
 ## 💾 SQL Simulation Data
 
