@@ -9,7 +9,7 @@ DB_NAME: process.env.DB_NAME,
 }); 
 async function bootstrap() { 
 app.enableCors({
-    origin: 'https://tour-site-project.vercel.app',
+    origin: 'https://it-store-gamma.vercel.app/',
 });
 const app = await NestFactory.create(AppModule); 
 await app.listen(process.env.PORT ?? 3000); 
