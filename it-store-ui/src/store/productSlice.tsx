@@ -22,7 +22,7 @@ const initialState: ProductState = {
     error: null,
 }
 
-const API_URL = '/api/products';
+const API_URL = `${import.meta.env.VITE_API_URL}/products`;
 
 export const fetchProducts = createAsyncThunk('products/fetchProducts', async () => {
     const response = await axios.get<Product[]>(API_URL);
